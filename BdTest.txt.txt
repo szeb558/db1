@@ -1,0 +1,33 @@
+Series = {
+nro_serie:number, titulo:string, anio:date, sinopsis:string, idioma:string, puntuacion:number, comentario:string
+
+    1, "Homeland", "2011", "Una oficial de operaciones de la CIA que, después de realizar una operación no autorizada en Irak, es puesta en Virginia. Mientras ella estaba llevando a cabo la operación en Irak, fue advertida por un activo que un prisionero de guerra estadounidense se había unido al grupo terrorista Al-Qaeda.
+", "ingles"
+    2, "Breking bad", "2018", "Walter White un profesor de química de secundaria agobiado por problemas económicos para sostener a su familia y con un cáncer terminal, toma una decisión para ganar dinero
+", "ingles"
+    3, "Dark", "2019", "La serie es una especie de rompecabezas que presenta una estructura narrativa compleja. En Winden, un pequeño pueblo alemán, cuatro familias se sumergen en la búsqueda de un niño que ha desaparecido de forma misteriosa. Entonces, descubren que los acontecimientos abarcan diferentes generaciones.",
+ "Aleman"
+    4, "Game of Thrones", "2011", "La ficción se ha convertido en una serie de referencia y en un verdadero fenómeno que, a pesar del paso del tiempo, sigue suscitando el interés de muchas personas alrededor del mundo.", 
+"ingles"
+    
+ }
+
+Temporadas = {
+cod_temporada:numero, nombre:string, fecha_prod:date, fecha_Estreno:date,idSerie:numero
+
+ 1,"primera temporada", "20/2/19", "20/02/2020","01"
+ 2,"primera temporada", "20/2/19", "20/02/2020","02"
+ 3,"primera temporada", "20/2/19", "20/02/2020","03"
+ 4,"primera temporada", "20/2/19", "20/02/2020","04"	
+
+}
+
+Capitulos = {
+cod_capitulo:numero, titulo:string, duracion:string, comentario:string, cod_temporada:number
+
+1,"nombreDelCapitulo, "dos horas", "comentario del capitulo", "01"
+2,"nombreDelCapitulo, "dos horas", "comentario del capitulo", "02"
+3,"nombreDelCapitulo, "dos horas", "comentario del capitulo", "03"
+4,"nombreDelCapitulo, "dos horas", "comentario del capitulo", "04"
+
+}
